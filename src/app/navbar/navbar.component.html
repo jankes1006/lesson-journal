@@ -1,0 +1,14 @@
+<div class="topnav">
+    <div class="navbar-title">
+        {{CONST_DATA.title}}
+    </div>
+
+    <div class="navbar-field" *ngFor="let headerField of headerData">
+        <a class="navbar-field-link" href="">{{headerField}}</a>
+    </div>
+
+    <div class="navbar-field" style="margin-left: 170px;">
+        {{username}}
+    </div>
+    <div class="without-field"></div>
+</div>
