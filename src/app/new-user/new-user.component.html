@@ -1,0 +1,85 @@
+<form>
+    <div class="form-header">
+        <h2>
+            {{title}}
+        </h2>
+    </div>
+    <div class="form-sub-header">
+        <h3>
+            {{baseData}}
+        </h3>
+    </div>
+    <div class="form-sub-header" style="margin-left: 5px;">
+        <h3>
+            {{contactData}}
+        </h3>
+    </div>
+    <div class="clear-both"></div>
+
+    <div class="form-sub-body">
+        <div class="form-data-line">
+            <label for="firstName">Pierwsze imię:</label><br>
+            <input type="text" id="firstName" name="firstName"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="seconName">Drugie imię:</label><br>
+            <input type="text" id="secondName" name="secondName"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="surname">Nazwisko:</label><br>
+            <input type="text" id="surname" name="surname"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="personalIdentityNumber">Pesel:</label><br>
+            <input type="text" id="personalIdentityNumber" name="personalIdentityNumber"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="numberPhone">Numer telefonu:</label><br>
+            <input type="text" id="numberPhone" name="numberPhone"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="role">Rola:</label><br>
+            <select id="role" name="role">
+                <option>Administrator</option>
+                <option>Nauczyciel</option>
+                <option>Uczeń</option>
+              </select>
+        </div>
+    </div>
+
+    <div class="form-sub-body" style="margin-left: 5px;">
+        <div class="form-data-line">
+            <label for="streetName">Ulica:</label><br>
+            <input type="text" id="streetName" name="streetName"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="numberBuilding">Numer budynku:</label><br>
+            <input type="text" id="numberBuilding" name="numberBuilding"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="apartamentNumber">Numer mieszkania:</label><br>
+            <input type="text" id="apartamentNumber" name="apartamentNumber"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="postalCode">Kod pocztowy:</label><br>
+            <input type="text" id="postalCode" name="postalCode"><br>
+        </div>
+
+        <div class="form-data-line">
+            <label for="city">Miasto:</label><br>
+            <input type="text" id="city" name="city"><br>
+        </div>
+
+    </div>
+    <div class="clear-both"></div>
+
+    <input type="submit" value="Zapisz"/>
+</form>
