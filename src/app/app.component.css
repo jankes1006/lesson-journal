@@ -3,9 +3,10 @@
     margin-left: auto;
     margin-right: auto;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-style: solid;
 }
 
 .content-container{
     height: 680px;
-    background-color: #ffffa8;
+    background-color: #E2E2E2;
 }
