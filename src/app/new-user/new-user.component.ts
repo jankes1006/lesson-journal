@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { newUserConstant } from './new-user-constant';
 
 @Component({
   selector: 'app-new-user',
@@ -9,10 +10,12 @@ export class NewUserComponent implements OnInit {
 
   constructor() { }
 
-  title: string = "Nowy użytkownik";
-  baseData: string = "Dane podstawowe";
-  contactData: string = "Dane kontaktowe";
+  newUserConstant = newUserConstant;
   
+  onSubmit(form: any){
+    let data = form.value;
+  }
+
   ngOnInit(): void {
   }
 

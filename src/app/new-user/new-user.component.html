@@ -1,85 +1,85 @@
-<form>
+<form #newUserForm = "ngForm" (ngSubmit)="onSubmit(newUserForm)">
     <div class="form-header">
         <h2>
-            {{title}}
+            {{newUserConstant.title}}
         </h2>
     </div>
     <div class="form-sub-header">
         <h3>
-            {{baseData}}
+            {{newUserConstant.baseData}}
         </h3>
     </div>
     <div class="form-sub-header" style="margin-left: 5px;">
         <h3>
-            {{contactData}}
+            {{newUserConstant.contactData}}
         </h3>
     </div>
     <div class="clear-both"></div>
 
     <div class="form-sub-body">
         <div class="form-data-line">
-            <label for="firstName">Pierwsze imię:</label><br>
-            <input type="text" id="firstName" name="firstName"><br>
+            <label for="firstName">{{newUserConstant.firstName}}</label><br>
+            <input type="text" id="firstName" name="firstName" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="seconName">Drugie imię:</label><br>
-            <input type="text" id="secondName" name="secondName"><br>
+            <label for="seconName">{{newUserConstant.secondName}}</label><br>
+            <input type="text" id="secondName" name="secondName" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="surname">Nazwisko:</label><br>
-            <input type="text" id="surname" name="surname"><br>
+            <label for="surname">{{newUserConstant.surname}}</label><br>
+            <input type="text" id="surname" name="surname" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="personalIdentityNumber">Pesel:</label><br>
-            <input type="text" id="personalIdentityNumber" name="personalIdentityNumber"><br>
+            <label for="personalIdentityNumber">{{newUserConstant.personalIdentityNumber}}</label><br>
+            <input type="text" id="personalIdentityNumber" name="personalIdentityNumber" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="numberPhone">Numer telefonu:</label><br>
-            <input type="text" id="numberPhone" name="numberPhone"><br>
+            <label for="numberPhone">{{newUserConstant.numberPhone}}</label><br>
+            <input type="text" id="numberPhone" name="numberPhone" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="role">Rola:</label><br>
-            <select id="role" name="role">
-                <option>Administrator</option>
-                <option>Nauczyciel</option>
-                <option>Uczeń</option>
+            <label for="role">{{newUserConstant.role}}</label><br>
+            <select id="role" name="role" ngModel>
+                <option>{{newUserConstant.admin}}</option>
+                <option>{{newUserConstant.teacher}}</option>
+                <option>{{newUserConstant.student}}</option>
               </select>
         </div>
     </div>
 
     <div class="form-sub-body" style="margin-left: 5px;">
         <div class="form-data-line">
-            <label for="streetName">Ulica:</label><br>
-            <input type="text" id="streetName" name="streetName"><br>
+            <label for="streetName">{{newUserConstant.streetName}}</label><br>
+            <input type="text" id="streetName" name="streetName" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="numberBuilding">Numer budynku:</label><br>
-            <input type="text" id="numberBuilding" name="numberBuilding"><br>
+            <label for="numberBuilding">{{newUserConstant.numberBuilding}}</label><br>
+            <input type="text" id="numberBuilding" name="numberBuilding" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="apartamentNumber">Numer mieszkania:</label><br>
-            <input type="text" id="apartamentNumber" name="apartamentNumber"><br>
+            <label for="apartamentNumber">{{newUserConstant.apartamentNumber}}</label><br>
+            <input type="text" id="apartamentNumber" name="apartamentNumber" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="postalCode">Kod pocztowy:</label><br>
-            <input type="text" id="postalCode" name="postalCode"><br>
+            <label for="postalCode">{{newUserConstant.postalCode}}</label><br>
+            <input type="text" id="postalCode" name="postalCode" ngModel><br>
         </div>
 
         <div class="form-data-line">
-            <label for="city">Miasto:</label><br>
-            <input type="text" id="city" name="city"><br>
+            <label for="city">{{newUserConstant.city}}</label><br>
+            <input type="text" id="city" name="city" ngModel><br>
         </div>
 
     </div>
     <div class="clear-both"></div>
 
-    <input type="submit" value="Zapisz"/>
+    <input type="submit" value="{{newUserConstant.save}}"/>
 </form>

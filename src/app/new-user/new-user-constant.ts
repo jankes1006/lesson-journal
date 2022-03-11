@@ -1,0 +1,20 @@
+export const newUserConstant = {
+    title: "Nowy użytkownik",
+    baseData: "Dane podstawowe",
+    contactData: "Dane kontaktowe",
+    firstName: "Pierwsze imię:",
+    secondName: "Drugie imię:",
+    surname: "Nazwisko:",
+    personalIdentityNumber: "Pesel:",
+    numberPhone: "Numer telefonu",
+    role: "Rola:",
+    admin: "Administrator",
+    teacher: "Nauczyciel",
+    student: "Uczeń",
+    streetName: "Ulica:",
+    numberBuilding: "Numer budynku:",
+    apartamentNumber: "Numer mieszkania:",
+    postalCode: "Kod pocztowy:",
+    city: "Miasto:",
+    save: "Zapisz"
+};

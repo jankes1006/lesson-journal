@@ -1,10 +1,10 @@
 .topnav
 {
-    background-color: #05A1E4;
+    background-color: #A3F192;
 }
 
 .navbar-title{
-    background-color: #05A1E4;
+    background-color: #A3F192;
     width: 200px;
     height: 50px;
     line-height: 50px;
@@ -15,7 +15,7 @@
 }
 
 .navbar-field{
-    background-color: #05A1E4;
+    background-color: #A3F192;
     width: 120px;
     height: 50px;
     line-height: 50px;
@@ -26,7 +26,7 @@
 }
 
 .navbar-field:hover{
-    background-color: #01B9FF;
+    background-color: #70E956;
 }
 
 a.navbar-field-link{
@@ -39,11 +39,11 @@ a.navbar-field-link{
 
 .navbar-field:nth-child(5){
     width: 230px;
-    background-color: #05A1E4;
+    background-color: #A3F192;
 }
 
 .navbar-field:nth-child(5):hover{
-    background-color: #01B9FF;
+    background-color: #70E956;
 }
 .without-field{
     clear:both;

@@ -2,11 +2,11 @@ form{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .form-header{
-    background-color: #11FD17;
+    background-color: #F9F7CE;
     border-style: solid;
     border-radius: 10px;
     text-align: center;
@@ -42,7 +42,7 @@ form{
 }
 
 input[type=submit]{
-    background-color: #11FD17;
+    background-color: #F9F7CE;
     width: 100%;
     font-size: 25px;
     border: solid;
@@ -51,7 +51,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    background-color: #11fd19c7;
+    background-color: #F3E29C;
 }
 
 input[type=text]{
